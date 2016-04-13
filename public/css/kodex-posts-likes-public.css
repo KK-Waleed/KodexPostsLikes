@@ -1,3 +1,7 @@
+//New Style added by Waleed : www.propackages.vmclan-ac.tk
+//Edited the default button style. Added colours to the buttons: Blue for like and Red for disslike. 
+//Also added the style for selected button, so the button colour changes to gold, when either like or dislike is selected.
+
 .kodex_buttons {
   text-align: center;
   padding: 15px 0 15px 0;
@@ -37,15 +41,17 @@
       padding-right: 10px;
       font-weight: bold; }
     .kodex_buttons button.kodex_like_button {
-      background: #dfdfdf;
-      border-color: #bfbfbf;
-      color: #999; }
+      background: #212528;
+      border-color: #26c3f6;
+      color: #26c3f6; 
+      margin-right: 5px;
+}
       .kodex_buttons button.kodex_like_button .icon:before {
         content: "\f529"; }
     .kodex_buttons button.kodex_dislike_button {
-      background: whitesmoke;
-      border-color: #dfdfdf;
-      color: #dfdfdf; }
+      background: #212528;
+      border-color: #ff1313;
+      color: #ff0303; }
       .kodex_buttons button.kodex_dislike_button .icon:before {
         content: "\f542"; }
     .kodex_buttons button:hover {
@@ -60,9 +66,11 @@
       background: #0288d1;
       border-color: #0277bd; }
     .kodex_buttons button.kodex_button_active {
-      background: #9bd100;
-      color: #fff;
-      border-color: #88b700; }
+      background: #150404;
+      color: #edd900;
+      border-color: #edd900; 
+      margin-right: 5px;
+}
 
 .kodex_likes_count {
   display: block;
